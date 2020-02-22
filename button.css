@@ -1,0 +1,11 @@
+.fairy-lights-button {
+  bottom: 3em;
+  position: fixed;
+  right: 3em;
+}
+.fairy-lights-button.on > .off {
+  display: none;
+}
+.fairy-lights-button.off > .on {
+  display: none;
+}

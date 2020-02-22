@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fairy Lights</title>
+
+    <!-- The styling for the lights. -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <!--
+      Simple script to open the page with the lights lowered only around
+      christmass.
+    -->
+    <!--
+    <script type="text/javascript" src="./10-xmass.js"></script>
+    -->
+
+    <!-- Buttons that lower or raise the lights. -->
+    <link rel="stylesheet" type="text/css" href="./button.css" />
+    <script type="text/javascript" src="./20-button.js"></script>
+
+    <style>
+      html {
+        background-color: #000000;
+        background-image: url(https://picsum.photos/id/120/4928/3264);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        height: 100%;
+        width: 100%;
+      }
+
+      /*
+       * The size of the lights can be controlled by font size like this:
+       */
+      .fairy-lights {
+        font-size: 5vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--
+      The lights. Pick your colors and the number of lights here. It's
+      also possible to generate this programmatically if it suits your
+      needs better.
+
+      You can change the class down to up to have them hidden when the
+      page is opened.
+    -->
+    <div class="fairy-lights down irregular">
+      <div class="wire">
+        <span class="socket"><div class="purple bulb"></div></span>
+        <span class="socket"><div class="green bulb"></div></span>
+        <span class="socket"><div class="yellow bulb"></div></span>
+        <span class="socket"><div class="cyan bulb"></div></span>
+        <span class="socket"><div class="green bulb"></div></span>
+        <span class="socket"><div class="blue bulb"></div></span>
+        <span class="socket"><div class="yellow bulb"></div></span>
+        <span class="socket"><div class="cyan bulb"></div></span>
+        <span class="socket"><div class="orange bulb"></div></span>
+        <span class="socket"><div class="green bulb"></div></span>
+        <span class="socket"><div class="red bulb"></div></span>
+        <span class="socket"><div class="blue bulb"></div></span>
+        <span class="socket"><div class="green bulb"></div></span>
+        <span class="socket"><div class="red bulb"></div></span>
+        <span class="socket"><div class="orange bulb"></div></span>
+        <span class="socket"><div class="cyan bulb"></div></span>
+        <span class="socket"><div class="blue bulb"></div></span>
+        <span class="socket"><div class="orange bulb"></div></span>
+        <span class="socket"><div class="purple bulb"></div></span>
+        <span class="socket"><div class="red bulb"></div></span>
+        <span class="socket"><div class="yellow bulb"></div></span>
+        <span class="socket"><div class="purple bulb"></div></span>
+        <span class="socket"><div class="blue bulb"></div></span>
+        <span class="socket"><div class="yellow bulb"></div></span>
+        <span class="socket"><div class="orange bulb"></div></span>
+        <span class="socket"><div class="red bulb"></div></span>
+        <span class="socket"><div class="purple bulb"></div></span>
+        <span class="socket"><div class="cyan bulb"></div></span>
+      </div>
+    </div>
+
+    <!--
+      Add a button if you want. You can override the default styling or
+      ditch it completely to make it better fit the design of your page.
+    -->
+    <button class="fairy-lights-button off">
+      <img class="on" alt="Turn fairy lights on" src="./fairy-lights-on.svg" />
+      <img
+        class="off"
+        alt="Turn fairy lights off"
+        src="./fairy-lights-off.svg"
+      />
+    </button>
+
+    <!-- There may be any custom content on your page of course. -->
+  </body>
+</html>
