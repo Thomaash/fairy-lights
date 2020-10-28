@@ -1,0 +1,16 @@
+{
+  "name": "Fairy Lights",
+  "short_name": "fl",
+  "lang": "en",
+  "start_url": "https://www.vycital.eu/fairy-lights/",
+  "scope": "https://www.vycital.eu/fairy-lights/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
